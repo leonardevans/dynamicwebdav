@@ -1,0 +1,14 @@
+logging:
+  level:
+    ROOT: info
+
+server:
+  tomcat:
+    max-keep-alive-requests: 5
+
+spring:
+  devtools:
+    restart:
+      enabled: false
+  profiles:
+    active: demo
